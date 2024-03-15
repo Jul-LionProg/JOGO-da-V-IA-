@@ -25,3 +25,12 @@ checkWinner(1,5,9);
 checkWinner(3,5,7);
 if (moves == 9 && isGameOver == false) {draw();}
 }
+function checkWinner(a, b, c) {
+a--; b--; c--;
+if (
+(span[a].dataset.player === span[b].dataset.player) &&
+(span[b].dataset.player === span[c].dataset.player) &&
+(span[a].dataset.player === span[c].dataset.player) &&
+((span[a].dataset.player === "x") || span[a].dataset.player == "o")&&
+isGameOver == false
+) {
