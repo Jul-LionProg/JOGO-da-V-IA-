@@ -1,2 +1,2 @@
-# JOGO-da-V-IA-
-# Jogo  da velha usando Javascript
+# JOGO-da-VÉIA 👵
+# Jogo  da velha usando Javascript #
