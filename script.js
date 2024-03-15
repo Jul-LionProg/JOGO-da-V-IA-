@@ -9,3 +9,9 @@ if (y.dataset.player=="none" && window.isGameOver == false) {
 y.innerHTML = playerTurn;
 y.dataset.player = playerTurn;
 moves++;
+if (playerTurn=="x") {
+playerTurn="o";
+} else if (playerTurn=="o") {
+playerTurn="x"
+}
+}
