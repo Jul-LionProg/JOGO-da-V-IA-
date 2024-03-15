@@ -34,3 +34,9 @@ if (
 ((span[a].dataset.player === "x") || span[a].dataset.player == "o")&&
 isGameOver == false
 ) {
+span[a].parentNode.className += " activeBox";
+span[b].parentNode.className += " activeBox";
+span[c].parentNode.className += " activeBox";
+gameOver(a);
+}
+}
